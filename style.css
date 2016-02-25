@@ -1,5 +1,17 @@
+html body {
+    margin: 0px;
+}
+
 a {
     text-decoration: none;
+}
+
+.header {
+    padding: 30px;
+    padding-left: 100px;
+    font-family: sans-serif;
+    background-color: #333333;	
+    color: #FFCC00;	
 }
 
 .teampro {
