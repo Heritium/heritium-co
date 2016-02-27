@@ -1,5 +1,6 @@
 html body {
     margin: 0px;
+    background-color: #F3F4F4;
 }
 
 a {
@@ -16,15 +17,18 @@ a {
 
 .teampro {
     text-align: center;
+    font-family: Arial Black;
     margin-bottom: 5em;
 }
         
 .profpic {
-    border-radius: 55%;        
+    border-radius: 55%;
+    border: 10px solid #efefef;
 }
 
 .des {
     text-align: center;
+    font-family: Arial Black;
     margin-top: 5em;
 }
         
