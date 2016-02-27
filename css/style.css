@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+.center {
+    text-align: center;
+}
+
 .header {
     padding: 30px;
     padding-left: 100px;
