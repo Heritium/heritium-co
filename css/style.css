@@ -15,7 +15,9 @@ a {
     color: #FFCC00;	
 }
 
-.teampro {
+.subteam {
+    display: inline-block;
+    width: 33.33%;
     text-align: center;
     font-family: Arial Black;
     margin-bottom: 5em;
@@ -26,13 +28,7 @@ a {
     border: 10px solid #efefef;
 }
 
-.des {
-    text-align: center;
-    font-family: Arial Black;
-    margin-top: 5em;
-}
-        
-hr { 
+hr {
     margin-left: 8em;
     margin-right: 8em;
     margin-bottom: 2em;
