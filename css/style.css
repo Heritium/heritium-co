@@ -1,6 +1,6 @@
 html body {
     margin: 0px;
-    background-color: grey;
+    background-color: #FFE799;
 }
 
 a {
@@ -15,6 +15,7 @@ a {
     padding: 30px;
     padding-left: 100px;
     font-family: sans-serif;
+<<<<<<< HEAD
     background-color: black;	
     color: black;	
 }
@@ -29,6 +30,10 @@ a {
     margin-left: 43em;
     margin-right: 43em;
     margin-bottom: 2em;
+=======
+    background-color: #A6783F;	
+    color: #FFE799;	
+>>>>>>> origin/master
 }
 
 .subteam {
