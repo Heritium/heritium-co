@@ -1,6 +1,6 @@
 html body {
     margin: 0px;
-    background-color: grey;
+    background-color: #FFE799;
 }
 
 a {
@@ -15,8 +15,8 @@ a {
     padding: 30px;
     padding-left: 100px;
     font-family: sans-serif;
-    background-color: #333333;	
-    color: #FFCC00;	
+    background-color: #A6783F;	
+    color: #FFE799;	
 }
 
 .subteam {
