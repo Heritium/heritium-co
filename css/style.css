@@ -15,8 +15,20 @@ a {
     padding: 30px;
     padding-left: 100px;
     font-family: sans-serif;
-    background-color: #333333;	
-    color: #FFCC00;	
+    background-color: black;	
+    color: black;	
+}
+.subheader {
+    color: #FFCC00;
+}
+
+.headerbox {
+    margin: 30px;
+    background-color: #FFCC00;
+    border: 3px ;
+    margin-left: 43em;
+    margin-right: 43em;
+    margin-bottom: 2em;
 }
 
 .subteam {
