@@ -1,6 +1,17 @@
+@font-face {
+    font-family: "Visit Indonesia";
+    src: url("../font/visit-indonesia-2011.ttf");
+}
+
 html body {
     margin: 0px;
     background-color: #FFE799;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Visit Indonesia";
 }
 
 a {
