@@ -7,9 +7,27 @@ a {
     text-decoration: none;
 }
 
+.headerbg {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    float:center;
+    clear:both;
+    display: block;
+    background: url("../img/prambanan.png") no-repeat center center ;
+    color: white;
+    margin:5px;
+    width: auto;
+    height: 1000px;
+}
+
 .header {
-    padding: 130px;
-    padding-left: 100px;
+    padding: 0px;
+    padding-left: 00px;
+    padding-right: 00px;
+    padding-top: 00px;
+    padding-bottom: 00px;
     font-family: sans-serif;
     background-color: #A6783F;	
     color: #FFE799;	
