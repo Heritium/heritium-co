@@ -1,24 +1,114 @@
 html body {
     margin: 0px;
-    background-color: #F3F4F4;
+    background-color: #FFE799;
 }
 
 a {
     text-decoration: none;
 }
 
+.headerbg {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    float:center;
+    clear:both;
+    display: block;
+    background: url("../img/prambanan.png") no-repeat center center ;
+    color: white;
+    margin:0px;
+    width: auto;
+    height: 800px;
+}
+
+.header {
+    padding: 0px;
+    padding-left: 00px;
+    padding-right: 00px;
+    padding-top: 300px;
+    padding-bottom: 00px;
+    margin-bottom: 0;
+    font-family: sans-serif;	
+}
+
+/*
 .center {
     text-align: center;
 }
 
 .header {
-    padding: 30px;
+    padding: 0px;
     padding-left: 100px;
     font-family: sans-serif;
-    background-color: #333333;	
-    color: #FFCC00;	
+    background-color: black;	
+    color: black;	
+}
+*/
+
+.subheader {
+    margin-top: 0px;
+    color: #FFCC00;
 }
 
+.prolog{
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.prolog-title-desc{
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.prolog-desc{
+    
+    margin-bottom: 0em;
+    margin-left: 12em;
+    margin-right: 15em;
+    margin-top: auto;
+}
+
+.prolog-img{
+    
+    float: right;
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    margin-bottom: 0em;
+    margin-left: 8em;
+    margin-right: 15em;
+    margin-top: 0;
+    
+    
+}
+/*
+.headerbox {
+    margin: 30px;
+    background-color: #FFCC00;
+    border: 3px ;
+    margin-left: 43em;
+    margin-right: 43em;
+    margin-bottom: 2em;
+    background-color: #A6783F;	
+    color: #FFE799;	
+}
+*/
+
+.section-team{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.team-member{
+    margin-left: 2em;
+    margin-bottom: 2em;
+    display: inline-block;
+    
+}
+/*
 .subteam {
     display: inline-block;
     width: 33.33%;
@@ -26,16 +116,65 @@ a {
     font-family: Arial Black;
     margin-bottom: 5em;
 }
-        
+*/        
 .profpic {
     border-radius: 55%;
     border: 10px solid #efefef;
 }
 
+.product{
+    margin-top: 3em;
+}
+
+.product-title-desc{
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.product-desc{
+    
+    margin-bottom: 0em;
+    margin-left: 8em;
+    margin-right: 15em;
+    margin-top: auto;
+}
+
+.product-logo{
+    
+    float: left;
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    margin-bottom: 0em;
+    margin-left: 12em;
+    margin-right: 5em;
+    margin-top: 0;
+    
+}
+
+/*
 hr {
+    margin-left: 0em;
+    margin-right: 8em;
+    margin-bottom: 2em;
+}
+
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 3px ;
+    background: rgba(255,255,255,0.3);
     margin-left: 8em;
     margin-right: 8em;
     margin-bottom: 2em;
+}
+
+.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
 }
         
 .fikry {
@@ -55,6 +194,8 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+
+*/
         
 .gilang {
     float: left;
