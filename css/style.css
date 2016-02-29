@@ -20,21 +20,12 @@ a {
     text-decoration: none;
 }
 
-.headerbg {
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    float:center;
-    clear:both;
-    display: block;
+.header {
     background: url("../img/prambanan.png") no-repeat center center ;
     color: white;
-    margin:0px;
-    width: 100%;
 }
 
-.header {
+.header .heading {
     padding: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -44,18 +35,19 @@ a {
     font-size: 50px;
 }
 
+.header .subheading {
+    padding-top: 0px;
+    font-family: sans-serif;
+    color: #FFCC00;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
 .company-heading,
 .company-tagline {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
-}
-
-.subheader {
-    padding-top: 0px;
-    font-family: sans-serif;
-    color: #FFCC00;
-    font-size: 20px;
 }
 
 .section {
