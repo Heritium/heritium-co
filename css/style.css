@@ -8,7 +8,7 @@ a {
 }
 
 .headerbg {
-    margin-bottom: auto;
+    margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -17,20 +17,19 @@ a {
     display: block;
     background: url("../img/prambanan.png") no-repeat center center ;
     color: white;
-    margin:5px;
+    margin:0px;
     width: auto;
-    height: 1000px;
+    height: 800px;
 }
 
 .header {
     padding: 0px;
     padding-left: 00px;
     padding-right: 00px;
-    padding-top: 00px;
+    padding-top: 300px;
     padding-bottom: 00px;
-    font-family: sans-serif;
-    background-color: #A6783F;	
-    color: #FFE799;	
+    margin-bottom: 0;
+    font-family: sans-serif;	
 }
 
 /*
@@ -39,16 +38,16 @@ a {
 }
 
 .header {
-    padding: 30px;
+    padding: 0px;
     padding-left: 100px;
     font-family: sans-serif;
-<<<<<<< HEAD
     background-color: black;	
     color: black;	
 }
 */
 
 .subheader {
+    margin-top: 0px;
     color: #FFCC00;
 }
 
@@ -93,10 +92,8 @@ a {
     margin-left: 43em;
     margin-right: 43em;
     margin-bottom: 2em;
-=======
     background-color: #A6783F;	
     color: #FFE799;	
->>>>>>> origin/master
 }
 */
 
