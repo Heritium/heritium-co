@@ -49,14 +49,18 @@ a {
     margin-left: 5em;
     margin-right: auto;
     margin-top: auto;
+    font-family: nexa;
 }
 
 .prolog-desc{
     
     margin-bottom: 0em;
     margin-left: 12em;
-    margin-right: 15em;
+    margin-right: 40em;
     margin-top: auto;
+    text-align: justify;
+    font-size: 20px;
+    font-family: arial;
 }
 
 .prolog-img{
@@ -77,6 +81,7 @@ a {
     margin-left: 5em;
     margin-right: 5em;
     padding-top: 100px;
+    font-family: nexa;
 }
 
 .team-member{
@@ -100,14 +105,18 @@ a {
     margin-left: 5em;
     margin-right: auto;
     margin-top: auto;
+    font-family: nexa;
 }
 
 .product-desc{
     
     margin-bottom: 0em;
-    margin-left: 8em;
+    margin-left: 32em;
     margin-right: 15em;
     margin-top: auto;
+    text-align: justify;
+    font-family: arial;
+    font-size: 20px;
 }
 
 .product-logo{
