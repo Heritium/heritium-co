@@ -1,0 +1,190 @@
+html body {
+    margin: 0px;
+    background-color: #FFE799;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 130px;
+    padding-left: 100px;
+    font-family: sans-serif;
+    background-color: #A6783F;	
+    color: #FFE799;	
+}
+
+/*
+.center {
+    text-align: center;
+}
+
+.header {
+    padding: 30px;
+    padding-left: 100px;
+    font-family: sans-serif;
+<<<<<<< HEAD
+    background-color: black;	
+    color: black;	
+}
+*/
+
+.subheader {
+    color: #FFCC00;
+}
+
+.prolog{
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.prolog-title-desc{
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.prolog-desc{
+    
+    margin-bottom: 0em;
+    margin-left: 12em;
+    margin-right: 15em;
+    margin-top: auto;
+}
+
+.prolog-img{
+    
+    float: right;
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    margin-bottom: 0em;
+    margin-left: 8em;
+    margin-right: 15em;
+    margin-top: 0;
+    
+    
+}
+/*
+.headerbox {
+    margin: 30px;
+    background-color: #FFCC00;
+    border: 3px ;
+    margin-left: 43em;
+    margin-right: 43em;
+    margin-bottom: 2em;
+=======
+    background-color: #A6783F;	
+    color: #FFE799;	
+>>>>>>> origin/master
+}
+*/
+
+.section-team{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.team-member{
+    margin-left: 2em;
+    margin-bottom: 2em;
+    display: inline-block;
+    
+}
+/*
+.subteam {
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+    font-family: Arial Black;
+    margin-bottom: 5em;
+}
+*/        
+.profpic {
+    border-radius: 55%;
+    border: 10px solid #efefef;
+}
+
+.product{
+    margin-top: 3em;
+}
+
+.product-title-desc{
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.product-desc{
+    
+    margin-bottom: 0em;
+    margin-left: 8em;
+    margin-right: 15em;
+    margin-top: auto;
+}
+
+.product-logo{
+    
+    float: left;
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    margin-bottom: 0em;
+    margin-left: 12em;
+    margin-right: 5em;
+    margin-top: 0;
+    
+}
+
+/*
+hr {
+    margin-left: 0em;
+    margin-right: 8em;
+    margin-bottom: 2em;
+}
+
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 3px ;
+    background: rgba(255,255,255,0.3);
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-bottom: 2em;
+}
+
+.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+        
+.fikry {
+    float: left;
+    margin-left: 15em;
+    margin-right: auto;   
+}
+        
+.faiz {
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+        
+.ilham {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*/
+        
+.gilang {
+    float: left;
+    margin-left: auto;
+    margin-right: 10em;
+}
+      
