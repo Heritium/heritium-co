@@ -18,8 +18,8 @@ a {
     background: url("../img/prambanan.png") no-repeat center center ;
     color: white;
     margin:0px;
-    width: auto;
-    height: 800px;
+    width: 100%;
+    height: 100vh;
 }
 
 .header {
@@ -40,55 +40,42 @@ a {
 }
 
 .prolog{
-    margin-top: 3em;
-    margin-bottom: 5em;
+    width: 100%;
+    height: 100vh;
 }
 
 .prolog-title-desc{
-    margin-bottom: 1em;
-    margin-left: 5em;
-    margin-right: auto;
-    margin-top: auto;
-    font-family: nexa;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: auto;
+    padding-top: 4em;
 }
 
 .prolog-desc{
-    
-    margin-bottom: 0em;
-    margin-left: 12em;
-    margin-right: 40em;
-    margin-top: auto;
+    padding-left: 12em;
+    padding-right: 15em;
     text-align: justify;
-    font-size: 20px;
-    font-family: arial;
 }
 
 .prolog-img{
-    
     float: right;
     width: 20%;
     height: 20%;
     display: inline-block;
-    margin-bottom: 0em;
-    margin-left: 8em;
-    margin-right: 15em;
-    margin-top: 0;
-    
-    
+    padding-left: 8em;
+    padding-right: 15em;
 }
 
 .section-team{
-    margin-left: 5em;
-    margin-right: 5em;
-    padding-top: 100px;
-    font-family: nexa;
+    width: 100%;
+    height: 100vh;
+    background-color: #A6783F;
 }
 
 .team-member{
-    margin-left: 2em;
-    margin-bottom: 2em;
     display: inline-block;
-    
+    padding-left: 4.5em;
+    padding-top: 1em;
 }
     
 .profpic {
@@ -97,44 +84,33 @@ a {
 }
 
 .product{
-    margin-top: 3em;
+    width: 100%;
+    height: 100vh;
 }
 
 .product-title-desc{
-    margin-bottom: 1em;
-    margin-left: 5em;
-    margin-right: auto;
-    margin-top: auto;
-    font-family: nexa;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: auto;
+    padding-top: 4em;
 }
 
 .product-desc{
-    
-    margin-bottom: 0em;
-    margin-left: 32em;
-    margin-right: 15em;
-    margin-top: auto;
     text-align: justify;
-    font-family: arial;
-    font-size: 20px;
+    padding-bottom: 0em;
+    padding-left: 34em;
+    padding-right: 15em;
+    padding-top: auto;
 }
 
 .product-logo{
-    
     float: left;
     width: 20%;
     height: 20%;
     display: inline-block;
-    margin-bottom: 0em;
-    margin-left: 12em;
-    margin-right: 5em;
-    margin-top: 0;
-    
-}
-        
-.gilang {
-    float: left;
-    margin-left: auto;
-    margin-right: 10em;
+    padding-bottom: 0em;
+    padding-left: 12em;
+    padding-right: 5em;
+    padding-top: 2em;
 }
       
