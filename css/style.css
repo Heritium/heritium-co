@@ -14,6 +14,10 @@ body {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+body {
+    background: url("../img/prambanan.png") no-repeat fixed center;
+}
+
 h1,
 h2,
 h3 {
@@ -25,7 +29,6 @@ a {
 }
 
 .header {
-    background: url("../img/prambanan.png") no-repeat center center ;
     color: white;
 }
 
