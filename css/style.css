@@ -3,10 +3,14 @@
     src: url("../font/visit-indonesia-2011.ttf");
 }
 
-html body {
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
     margin: 0px;
-    background-color: #FFE799;
-    font-size: 14pt;
+    font-size: 12pt;
     font-family: Verdana, Geneva, sans-serif;
 }
 
