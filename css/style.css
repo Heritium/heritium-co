@@ -125,7 +125,12 @@ a {
     border: 10px solid #ffe799;
 }
 
-.section.product {}
+.section.product {
+    background-color: #ffe799;
+    color: #A6783F;
+    text-align: center;
+    padding: 30px 60px;
+}
 
 .product-title-desc {
     padding-bottom: 1em;
@@ -135,7 +140,6 @@ a {
 }
 
 .product-desc {
-    color: #FF9900;
 	text-align: justify;
     padding-bottom: 0em;
     padding-left: 34em;
