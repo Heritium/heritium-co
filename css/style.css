@@ -101,6 +101,10 @@ a {
     text-align: center;
 }
 
+.team-members {
+    margin-top: 50px;
+}
+
 .team-member {
     display: inline-block;
     padding: 2em 1em;
