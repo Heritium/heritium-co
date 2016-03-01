@@ -71,7 +71,13 @@ a {
     padding-bottom: 0.2em;
 }
 
-.section.prolog {}
+.section.prolog {
+    background-color: #ffe799;
+    color: #A6783F;
+    box-shadow: -3px -3px 10px #433;
+    text-align: center;
+    padding: 30px 60px;
+}
 
 .prolog-desc {
 	color: #FF9900;
@@ -90,7 +96,10 @@ a {
 }
 
 .section.team {
-    background-color: #A6783F;
+    background-color: rgba(90, 60, 60, 0.6);
+    color: #ffe799;
+    padding: 60px 60px;
+    text-align: center;
 }
 
 .team-member {
