@@ -56,14 +56,11 @@ a {
     width: 100%;
 }
 
-.section.prolog {}
-
-.prolog-title-desc {
+.section > .title {
     padding-bottom: 1em;
-    padding-left: 5em;
-    padding-right: auto;
-    padding-top: 4em;
 }
+
+.section.prolog {}
 
 .prolog-desc {
     padding-left: 12em;
