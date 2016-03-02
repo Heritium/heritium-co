@@ -72,6 +72,7 @@ a {
 .section.prolog {}
 
 .prolog-desc {
+	color: #FF9900;
     padding-left: 12em;
     padding-right: 15em;
     text-align: justify;
@@ -111,7 +112,8 @@ a {
 }
 
 .product-desc {
-    text-align: justify;
+    color: #FF9900;
+	text-align: justify;
     padding-bottom: 0em;
     padding-left: 34em;
     padding-right: 15em;
