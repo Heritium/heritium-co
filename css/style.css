@@ -176,6 +176,11 @@ a {
 
 .dotnav ul li {
     padding: 20px 0;
+    visibility: hidden;
+}
+
+.dotnav ul li:hover {
+    visibility: visible;
 }
 
 .dotnav ul li i {
@@ -186,9 +191,10 @@ a {
     margin-left: 10px;
     height: 13px;
     width: 13px;
+    visibility: visible;
 }
 
-.dotnav ul li i:hover,
-.dotnav ul li i:active {
+.dotnav ul li:hover i,
+.dotnav ul li:active i {
     background-color: white;
 }
