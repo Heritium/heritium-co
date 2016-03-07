@@ -179,7 +179,9 @@ a {
     visibility: hidden;
 }
 
-.dotnav ul li:hover {
+.dotnav ul li:hover,
+.dotnav ul li:active,
+.dotnav ul li.activated {
     visibility: visible;
 }
 
@@ -195,6 +197,7 @@ a {
 }
 
 .dotnav ul li:hover i,
-.dotnav ul li:active i {
+.dotnav ul li:active i,
+.dotnav ul li.activated i {
     background-color: white;
 }
