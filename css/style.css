@@ -157,3 +157,38 @@ a {
     padding-right: 5em;
     padding-top: 2em;
 }
+
+/*
+ * Dot Navigation
+ */
+.dotnav {
+    position: fixed;
+    right: 20px;
+    top: calc(50vh - 100px);
+    text-align: right;
+
+    color: white;
+}
+
+.dotnav ul {
+    list-style: none;
+}
+
+.dotnav ul li {
+    padding: 20px 0;
+}
+
+.dotnav ul li i {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 13px;
+    width: 13px;
+}
+
+.dotnav ul li i:hover,
+.dotnav ul li i:active {
+    background-color: white;
+}
