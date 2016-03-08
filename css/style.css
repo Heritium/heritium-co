@@ -167,7 +167,9 @@ a {
     top: calc(50vh - 125px);
     text-align: right;
 
-    color: white;
+    color: #A6783F;
+    text-shadow: 1px 1px white;
+
 }
 
 .dotnav ul {
@@ -188,7 +190,7 @@ a {
 .dotnav ul li i {
     display: inline-block;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid #A6783F;
     border-radius: 10px;
     margin-left: 10px;
     height: 13px;
