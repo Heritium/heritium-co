@@ -58,27 +58,60 @@ function removeClass(element, className) {
 }
 
 ready(function() {
-    var prologDot  = document.getElementById('dot-prolog');
-    var teamDot    = document.getElementById('dot-team');
-    var productDot = document.getElementById('dot-product');
-
     var dots = document.querySelectorAll('nav.dotnav ul li');
 
-    var onDotClicked = function(event) {
+    var activateDot = function(dot) {
         for (var i = 0; i < dots.length; i++)  {
             // Unactivate activated class for all dots
             removeClass(dots[i], 'activated');
         }
 
-        var item = querySelectorParent(event.target, 'li');
+        var item = querySelectorParent(dot, 'li');
 
         if (!item.classList.contains('activated')) {
             addClass(item, 'activated');
         }
     }
 
+    var onDotClicked = function(event) {
+        activateDot(event.target);
+
+        var item = querySelectorParent(event.target, 'li');
+        Scroller.scrollTo('.' + item.id.replace('dot-', ''));
+    }
+
+    var onWindowScroll = function(event) {
+        var activateDotOnSectionPassed = function(dot, element) {
+            var scrollOffsetTop = element.getBoundingClientRect().top;
+            // TODO: Use Math.abs()
+            if (scrollOffsetTop <= 0) {
+                // console.log('scroll offset : ' + (-1 * scrollOffsetTop));
+                // console.log('element height : ' + element.offsetHeight);
+                activateDot(dot);
+            }
+        };
+
+        var dot = document.getElementById('dot-header');
+        var element = document.querySelector('.header');
+        activateDotOnSectionPassed(dot, element);
+
+        var dot = document.getElementById('dot-prolog');
+        var element = document.querySelector('.prolog');
+        activateDotOnSectionPassed(dot, element);
+
+        var dot = document.getElementById('dot-team');
+        var element = document.querySelector('.team');
+        activateDotOnSectionPassed(dot, element);
+
+        var dot = document.getElementById('dot-product');
+        var element = document.querySelector('.product');
+        activateDotOnSectionPassed(dot, element);
+    };
+
     for (var i = 0; i < dots.length; i++) {
         var dot = dots[i];
         dot.addEventListener('click', onDotClicked);
     }
+
+    window.addEventListener("scroll", onWindowScroll);
 });
