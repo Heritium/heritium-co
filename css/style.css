@@ -164,7 +164,7 @@ a {
 .dotnav {
     position: fixed;
     right: 20px;
-    top: calc(50vh - 100px);
+    top: calc(50vh - 125px);
     text-align: right;
 
     color: white;
