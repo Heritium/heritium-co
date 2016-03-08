@@ -168,7 +168,7 @@ a {
     text-align: right;
 
     color: #A6783F;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px #ffe799;
 
 }
 
@@ -201,5 +201,5 @@ a {
 .dotnav ul li:hover i,
 .dotnav ul li:active i,
 .dotnav ul li.activated i {
-    background-color: white;
+    background-color: #ffe799;
 }
