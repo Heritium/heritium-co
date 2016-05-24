@@ -1,0 +1,74 @@
+<html>
+<head>
+    <style>
+        #map-canvas {
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+<title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcpeXFen5-DlcI0KluoT-jEaqbdXSk-hk&libraries=places"></script>
+    <script>
+        
+        var map;
+        var service;
+        
+        function searchresult(results, status)
+        {
+            console.log(results);
+            for(var i=0; i<results.length; i++){
+                var marker = new google.maps.Marker({
+                    position : results[i].geometry.location,
+                    map: map,
+                    icon: results[i].icon
+            })};
+        }
+        
+        function search()
+        {
+            var request = {
+                bounds: map.getBounds(),
+                keyword: "the"
+            }
+            service.nearbySearch(request, searchresult);
+        }
+        
+        function showPosition(location)
+        {
+            console.log(location);
+            
+            var currentLocation = new google.maps.LatLng(location.coords.latitude, location.coords.longitude);
+            
+            var mapOption = {
+                center: currentLocation,
+                zoom: 12,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            
+            map = new google.maps.Map(document.getElementById("map-canvas"), 
+                                      mapOption);
+            
+            var marker = new google.maps.Marker({
+                position: currentLocation,
+                map: map
+            });
+            
+            service = new google.maps.places.PlacesService(map);
+            google.maps.event.addListenerOnce(map, 'bounds_changed', search);
+            
+            $('#refresh').click(search);
+
+        }
+        $(document).ready(function()
+        {
+          navigator.geolocation.getCurrentPosition(showPosition);
+        })
+    </script>
+</head>
+<body>
+  <div id="map-canvas"></div>
+    
+    <button id="refresh">Refresh</button>
+</body>
+</html>
